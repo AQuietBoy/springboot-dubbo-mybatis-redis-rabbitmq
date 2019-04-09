@@ -9,4 +9,8 @@
     
     <dubbo:service interface="com.hary.remote.service.UserServiceRemote" ref="userServiceRemote"/>
     <dubbo:service interface="com.hary.remote.service.RedisServiceRemote" ref="redisServiceRemote"/>
+    <dubbo:service interface="com.hary.remote.service.CommodityServiceRemote" ref="commodityServiceRemote"/>
+    <dubbo:service interface="com.hary.remote.service.User_OrderServiceRemote" ref="user_OrderServiceRemote"/>
+    <dubbo:service interface="com.hary.remote.service.RoleServiceRemote" ref="roleServiceRemote"/>
+    <dubbo:service interface="com.hary.remote.service.PermissionServiceRemote" ref="permissionServiceRemote"/>
 </beans>

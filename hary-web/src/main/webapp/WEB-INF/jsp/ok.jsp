@@ -16,10 +16,54 @@
 </head>
 <body>
 <ul class="nav nav-tabs">
-    <li><a href="/">数据库curd测试</a></li>
-    <li><a href="/gotoLogin">登录测试(RabbitMQ测试)</a></li>
+    <li><a href="/admin_index">数据库curd测试</a></li>
+    <li class="disabled"><a href="/gotoLogin">登录测试(RabbitMQ测试)</a></li>
     <li><a href="/gotoRedis">Redis测试</a></li>
+    <li><a href="/gotoSeckill">模拟秒杀活动页面</a></li>
+    <li class="pull-right"><a href="/logout"><span class="glyphicon glyphicon-log-out"></span>退出</a> </li>
+    <li class="pull-right"><a data-toggle="modal" data-target="#userInfo"><span class="glyphicon glyphicon-user"></span> ${user.user_Name}</a></li>
 </ul>
 <h2>信息已发送，请到控制台查看！</h2>
+<div class="modal fade" id="userInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!--模态框头部-->
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">User Information</h4>
+            </div>
+            <form id="form_update_password" role="form">
+                <!--模态框body部分-->
+                <div class="modal-body">
+                    <div class="input-group">
+                        <span class="input-group-addon">用户名：</span>
+                        <input name="username" type="text" class="form-control" placeholder="${user.user_Name}" disabled>
+                    </div><br>
+                    <div class="input-group">
+                        <span class="input-group-addon">电  &nbsp;&nbsp;话：</span>
+                        <input name="tel" type="text" class="form-control" placeholder="${user.user_Tel}" disabled>
+                    </div><br>
+                    <div class="input-group">
+                        <span class="input-group-addon">密  &nbsp;&nbsp;码：</span>
+                        <input name="password" type="password" class="form-control" placeholder="${user.user_Password}" disabled>
+                    </div><br>
+                    <div class="input-group">
+                        <span class="input-group-addon">年  &nbsp;&nbsp;龄：</span>
+                        <input name="age" type="text" class="form-control" placeholder="${user.user_Age}" disabled>
+                    </div><br>
+                    <div class="input-group">
+                        <span class="input-group-addon">性  &nbsp;&nbsp;别：</span>
+                        <input name="sex" type="text" class="form-control" placeholder="${user.user_Sex}" disabled>
+                    </div><br>
+                </div>
+                <!--模态框脚注-->
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">关闭</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

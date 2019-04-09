@@ -35,11 +35,6 @@
     </style>
 </head>
 <body>
-<ul class="nav nav-tabs">
-    <li><a href="/">数据库curd测试</a></li>
-    <li class="active"><a href="/gotoLogin">登录测试(RabbitMQ测试)</a></li>
-    <li><a href="/gotoRedis">Redis测试</a></li>
-</ul>
     <div class="container1">
         <div class="active">
             <form action="login" role="form" method="post">
@@ -48,6 +43,8 @@
                 <br>
                 <input id="input2" type="password" name="password" placeholder="Password" class="form-control" required="true">
                 <br>
+                <input id="input3" type="checkbox" name="rememberMe"/>记住我
+                <hr>
                 <button type="submit" class="btn btn-primary">Login</button>
             </form>
         </div>
