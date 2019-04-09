@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hary.core.mapper.RoleMapper">
+
+    <resultMap id="BaseResultMap" type="com.hary.core.entity.Role">
+        <id column="role_Id" property="role_Id" jdbcType="INTEGER"/>
+        <result column="role_Name" property="role_Name" jdbcType="VARCHAR"/>
+        <result column="role_Description" property="role_Description" jdbcType="VARCHAR"/>
+        <result column="role_Available" property="role_Available" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        role_Id,role_Name,role_Description,role_Available
+    </sql>
+
+    <select id="queryRoleByUsername" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+          user.user_Id,
+          user.user_Name,
+          user.user_Tel,
+          user.user_Password,
+          user.user_Age,
+          user.user_Sex,
+          user.user_Identity,
+          role.role_Id,
+          role.role_Name,
+          role.role_Description,
+          role.role_Available
+        from user
+        RIGHT JOIN user_role ON user.user_Id = user_role.user_Id
+        LEFT JOIN role ON user_role.role_Id = role.role_Id
+        where user_Name = #{username}
+    </select>
+
+</mapper>
