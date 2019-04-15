@@ -49,7 +49,7 @@ ${user.user_Name}登录成功，您的身份是${user.user_Identity}(RabbiMQ测�
                     </div><br>
                     <div class="input-group">
                         <span class="input-group-addon">密  &nbsp;&nbsp;码：</span>
-                        <input name="password" type="password" class="form-control" placeholder="${user.user_Password}" disabled>
+                        <input name="password" type="password" class="form-control" value="${user.user_Password}" disabled>
                     </div><br>
                     <div class="input-group">
                         <span class="input-group-addon">年  &nbsp;&nbsp;龄：</span>
