@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8797c27-203d-44c4-a0b4-d8010f98af19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hary-provider/log/debug.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hary-provider/log/error.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hary-web/log/debug.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hary-web/log/error.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debug.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hary-provider/src/test/java/com/hary/provider/interface_test/UserServiceRemoteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/src/test/java/com/hary/provider/interface_test/UserServiceRemoteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-core/target/hary-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/hary-core/target/hary-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/log/debug.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/log/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hary-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-provider/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hary-provider/target/classes/provider-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hary-provider/target/classes/provider-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/CommodityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/CommodityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/admin_index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-web/log/debug.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-web/log/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/controller/CommodityController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/controller/CommodityController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/controller/CommodityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/controller/CommodityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/shiro/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/debug.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,9 +65,9 @@
           <entry key="ini" value="31" />
           <entry key="java" value="59785" />
           <entry key="jsp" value="5496" />
-          <entry key="properties" value="736" />
-          <entry key="txt" value="38" />
-          <entry key="xml" value="6421" />
+          <entry key="properties" value="754" />
+          <entry key="txt" value="118" />
+          <entry key="xml" value="6424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -71,10 +75,10 @@
           <entry key="Ini" value="23" />
           <entry key="JAVA" value="59785" />
           <entry key="JSP" value="5496" />
-          <entry key="PLAIN_TEXT" value="140" />
-          <entry key="Properties" value="736" />
+          <entry key="PLAIN_TEXT" value="220" />
+          <entry key="Properties" value="754" />
           <entry key="SQL" value="48" />
-          <entry key="XML" value="6373" />
+          <entry key="XML" value="6376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,13 +88,13 @@
           <entry key="class" value="16" />
           <entry key="conf" value="4" />
           <entry key="iml" value="5" />
-          <entry key="ini" value="5" />
+          <entry key="ini" value="6" />
           <entry key="java" value="758" />
           <entry key="js" value="8" />
           <entry key="jsp" value="163" />
-          <entry key="properties" value="80" />
+          <entry key="properties" value="83" />
           <entry key="txt" value="14" />
-          <entry key="xml" value="223" />
+          <entry key="xml" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -101,10 +105,10 @@
           <entry key="JAVA" value="758" />
           <entry key="JSP" value="163" />
           <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Properties" value="80" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Properties" value="83" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="223" />
+          <entry key="XML" value="224" />
         </counts>
       </usages-collector>
     </session>
@@ -115,10 +119,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,47 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hary-provider/src/test/java/com/hary/provider/interface_test/UserServiceRemoteTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hary-provider/src/test/java/com/hary/provider/interface_test/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hary-provider/src/main/java/com/hary/provider/service/impl/remote/CommodityServiceRemoteImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/show.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/admin_index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="51" column="123" lean-forward="true" selection-start-line="51" selection-start-column="123" selection-end-line="51" selection-end-column="123" />
+            <state relative-caret-position="152">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -175,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/User_OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -184,16 +170,16 @@
         <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/MyShiroRealm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="35" column="77" lean-forward="true" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="65" column="58" lean-forward="true" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+            <state relative-caret-position="-162">
+              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,13 +190,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/MyFormAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="212">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/shiro.ini">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -279,15 +279,15 @@
         <option value="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/webconfig/MyWebAppConfigurer.java" />
         <option value="$PROJECT_DIR$/hary-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/show.jsp" />
-        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml" />
-        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/CommodityController.java" />
         <option value="$PROJECT_DIR$/hary-provider/src/test/java/com/hary/provider/interface_test/UserServiceRemoteTest.java" />
         <option value="$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/admin_index.jsp" />
         <option value="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/MyFormAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml" />
+        <option value="$PROJECT_DIR$/hary-provider/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -361,6 +361,32 @@
             <path>
               <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="hary-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="hary-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="hary-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="462c0819:PsiDirectoryNode" />
+              <item name="hary-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-dubbo-mybatis-redis-rabbitMQ" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +513,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555328039531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555328414535" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xdd-wm-manager" />
@@ -700,7 +726,7 @@
       <workItem from="1555032572868" duration="10776000" />
       <workItem from="1555048408143" duration="4641000" />
       <workItem from="1555053139205" duration="8612000" />
-      <workItem from="1555292028622" duration="16389000" />
+      <workItem from="1555292028622" duration="17138000" />
     </task>
     <task id="LOCAL-00001" summary="框架整合">
       <created>1553665454823</created>
@@ -751,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555308666787</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="解决了shiro第一次验证成功的时候跳转的url错误(重写了FormAuthenticationFilter的onLoginSuccess方法)">
+      <created>1555328180959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555328180959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -787,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356938000" />
+    <option name="totallyTimeSpent" value="357687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,9 +833,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.23280802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.23280802" />
       <window_info id="Structure" order="1" sideWeight="0.5006748" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -824,7 +856,7 @@
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3286908" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.28830084" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32962447" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.64469916" visible="true" weight="0.316156" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.64469916" weight="0.316156" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -876,10 +908,10 @@
     <MESSAGE value="框架整合" />
     <MESSAGE value="打包部署bug修复" />
     <MESSAGE value="日志文件写入文件夹修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="日志文件写入文件夹修改" />
+    <MESSAGE value="解决了shiro第一次验证成功的时候跳转的url错误(重写了FormAuthenticationFilter的onLoginSuccess方法)" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决了shiro第一次验证成功的时候跳转的url错误(重写了FormAuthenticationFilter的onLoginSuccess方法)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/WEB-INF/logs/debug.txt" />
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/WEB-INF/logs/error.txt" />
     <entry file="file://$PROJECT_DIR$/hary-web/target/classes/META-INF/resources/WEB-INF/jsp/show.jsp" />
     <entry file="file://$PROJECT_DIR$/hary-web/target/classes/com/hary/consumer/ConsumerApplication.class">
@@ -1004,38 +1036,10 @@
     <entry file="file://$USER_HOME$/Downloads/springboot-dubbo-mybatis-redis-rabbitmq/springboot-dubbo-mybatis-redis-rabbitmq/hary-core/src/main/java/com/hary/core/entity/Commodity.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="110" selection-start-line="15" selection-start-column="110" selection-end-line="15" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1115,14 +1119,14 @@
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/webapp/WEB-INF/jsp/admin_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="51" column="123" lean-forward="true" selection-start-line="51" selection-start-column="123" selection-end-line="51" selection-end-column="123" />
+          <caret line="51" column="123" selection-start-line="51" selection-start-column="123" selection-end-line="51" selection-end-column="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1132,34 +1136,65 @@
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/controller/User_OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/MyShiroRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="35" column="77" lean-forward="true" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/MyFormAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="212">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hary-web/src/main/java/com/hary/consumer/shiro/ShiroConfig.java">
+    <entry file="file://$PROJECT_DIR$/hary-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="65" column="58" lean-forward="true" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/shiro.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hary-provider/src/main/resources/provider-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
