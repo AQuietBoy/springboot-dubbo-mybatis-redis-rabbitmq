@@ -6,8 +6,9 @@
 
     <dubbo:application name="provider"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:protocol name="dubbo" port="20881"/>
     
-    <dubbo:service interface="com.hary.remote.service.UserServiceRemote" ref="userServiceRemote"/>
+    <dubbo:service interface="com.hary.remote.service.UserServiceRemote" ref="userServiceRemote" />
     <dubbo:service interface="com.hary.remote.service.RedisServiceRemote" ref="redisServiceRemote"/>
     <dubbo:service interface="com.hary.remote.service.CommodityServiceRemote" ref="commodityServiceRemote"/>
     <dubbo:service interface="com.hary.remote.service.User_OrderServiceRemote" ref="user_OrderServiceRemote"/>

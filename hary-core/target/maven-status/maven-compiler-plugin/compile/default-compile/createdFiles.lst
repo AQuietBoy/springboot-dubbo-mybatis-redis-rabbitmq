@@ -1,1 +1,11 @@
+com\hary\core\entity\User_Order.class
+com\hary\core\mapper\PermissionMapper.class
+com\hary\core\entity\User.class
+com\hary\core\mapper\CommodityMapper.class
+com\hary\core\entity\Commodity.class
+com\hary\core\mapper\User_OrderMapper.class
+com\hary\core\entity\Role.class
+com\hary\core\mapper\RoleMapper.class
+com\hary\core\mapper\UserMapper.class
 com\hary\core\CoreApplication.class
+com\hary\core\entity\Permission.class

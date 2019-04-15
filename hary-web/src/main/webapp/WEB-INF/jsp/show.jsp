@@ -165,7 +165,7 @@
                     success:function (data) {
                         var user = JSON.parse(data);
                         alert("添加成功,添加数据为：" + user.username);
-                        window.location.href="/?page=${totalPages}";
+                        window.location.href="/admin_index?page=${totalPages}";
                     }
                 });
             });
@@ -258,18 +258,18 @@
         <div class="text-center">
             <nav>
                 <ul class="pagination">
-                    <li><a href="<c:url value="/?page=1"/> ">首页</a> </li>
-                    <li><a href="<c:url value="/?page=${page-1>1?page-1:1}"/> ">&laquo;</a> </li>
+                    <li><a href="<c:url value="/admin_index?page=1"/> ">首页</a> </li>
+                    <li><a href="<c:url value="/admin_index?page=${page-1>1?page-1:1}"/> ">&laquo;</a> </li>
 
                     <c:forEach begin="1" end="${totalPages}" varStatus="status">
                         <c:set var="active" value="${status.index==page?'active':''}"/>
                         <li class="${active}">
-                            <a href="<c:url value="/?page=${status.index}"/> ">${status.index}</a>
+                            <a href="<c:url value="/admin_index?page=${status.index}"/> ">${status.index}</a>
                         </li>
                     </c:forEach>
 
-                    <li><a href="<c:url value="/?page=${page+1<totalPages?page+1:totalPages}"/>">&raquo;</a> </li>
-                    <li><a href="<c:url value="/?page=${totalPages}"/>">尾页</a> </li>
+                    <li><a href="<c:url value="/admin_index?page=${page+1<totalPages?page+1:totalPages}"/>">&raquo;</a> </li>
+                    <li><a href="<c:url value="/admin_index?page=${totalPages}"/>">尾页</a> </li>
                 </ul>
             </nav>
         </div>
